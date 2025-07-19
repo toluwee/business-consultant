@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pnpm run:*)",
+      "Bash(npm run dev:*)",
+      "Bash(npm install)",
+      "Bash(pkill:*)",
+      "Bash(cargo --version)",
+      "Bash(source:*)",
+      "Bash(npm run:*)",
+      "Bash(cargo install:*)",
+      "Bash(cargo run:*)",
+      "Bash(ls:*)",
+      "Bash(npm:*)",
+      "Bash(pnpm:*)",
+      "Bash(cargo build:*)",
+      "Bash(find:*)",
+      "Bash(sudo apt:*)",
+      "Bash(sudo apt install:*)",
+      "Bash(pkg-config:*)",
+      "Bash(HOST=0.0.0.0 DATABASE_URL=sqlite:dev_assets_seed/db.sqlite ./target/release/vibe-kanban)"
+    ],
+    "deny": []
+  }
+}
