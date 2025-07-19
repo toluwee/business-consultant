@@ -43,7 +43,7 @@ logs/
 
 # Claude AI assistant files
 .claude/
-
+CLAUDE.md
 # Generated documentation
 docs/
 
